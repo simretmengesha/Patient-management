@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dedede;
+    font-family: "Courier New", Courier, monospace;
+}
+
+div#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+input {
+    height: 25px;
+    border-radius: 0;
+}
+
+input:focus {
+    border: #2ca58d 2px solid;
+    outline: none;
+}
+
+button.submit-btn {
+    background-color: #2ca58d;
+}
+
+button.clear-btn {
+    background-color: #da2c38;
+}
